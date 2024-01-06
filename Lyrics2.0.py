@@ -66,7 +66,7 @@ else:
 select = input('which one? ')
 #next section
 index0 = selex[select]
-nextr = requests.get(choices[index0])
+nextr = requests.get("https:" + choices[index0])
 nextsoup = BeautifulSoup(nextr.text,'html.parser')
 Lyrics_search = nextsoup.find('div',class_='col-lg-6')
 print(Lyrics_search.text)
