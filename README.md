@@ -1,2 +1,2 @@
-# Lyric_web_scraping
+# Lyrics Finder
 Web scraping a music lyrics website with Python!
